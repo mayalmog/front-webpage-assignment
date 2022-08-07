@@ -5,6 +5,7 @@
       padding-block-end: 1px;
       gap: 0.4rem;
       li {
+        cursor: pointer;
         &.activeTab {
           p {
             color: black;

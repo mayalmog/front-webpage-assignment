@@ -4,14 +4,14 @@ export const HomePage = () => {
   return (
     <section className="home-page is-flex is-flex-direction-column">
       <div className="header">
-        <h1 className="is-flex is-justify-content-center is-size-1 p-6">
+        <h1 className="is-flex is-justify-content-center">
           Put your heart, mind, and soul into even your smallest acts.
         </h1>
-        <h3 className="is-flex is-justify-content-end is-size-3">
+        <h3 className="is-flex is-justify-content-end is-size-3 is-size-4-mobile">
           This is the secret of success.
         </h3>
       </div>
-      <div className="main-txt is-flex pt-6 px-4">
+      <div className="main-txt is-flex">
         <div className="p-container">
           <p>
             Technology is nothing. What&#39;s important is that you have a faith

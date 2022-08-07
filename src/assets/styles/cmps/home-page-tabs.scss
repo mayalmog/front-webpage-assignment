@@ -1,0 +1,25 @@
+.home-page-tabs {
+  .tabs-list {
+    ul {
+      border-bottom: 2px solid #aaaaaa;
+      li {
+        margin-inline-end: 0.5rem;
+        &.activeTab {
+          p {
+            color: red;
+          }
+        }
+        p {
+          padding: 1rem 1.5rem 0;
+          font-family: OpenSans-Light;
+        }
+      }
+    }
+  }
+  .tabs-content {
+    p {
+      font-family: OpenSans-SemiBold;
+      font-size: 1rem;
+    }
+  }
+}

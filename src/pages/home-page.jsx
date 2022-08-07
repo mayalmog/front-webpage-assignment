@@ -1,3 +1,5 @@
+import { HomePageTabs } from "../cmps/home-page-tabs";
+
 export const HomePage = () => {
   return (
     <section className="home-page is-flex is-flex-direction-column">
@@ -27,6 +29,7 @@ export const HomePage = () => {
           </p>
         </div>
       </div>
+      <HomePageTabs />
     </section>
   );
 };

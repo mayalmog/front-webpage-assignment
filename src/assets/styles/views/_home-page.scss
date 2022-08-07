@@ -1,0 +1,23 @@
+.home-page {
+  font-family: OpenSans-Light;
+  .header {
+    h1 {
+      text-align: center;
+    }
+    h3 {
+      font-family: OpenSans-LightItalic;
+      color: $clr1;
+    }
+  }
+  .main-txt {
+    gap: 2rem;
+    font-family: OpenSans-Regular;
+    .p-container {
+      flex: 1;
+    }
+    p {
+      border-left: 3px solid red;
+      padding-inline-start: 1rem;
+    }
+  }
+}

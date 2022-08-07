@@ -1,6 +1,7 @@
 import React from "react";
 import * as ReactDOMClient from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
+import "bulma/css/bulma.min.css";
 // import { Provider } from "react-redux";
 // import "bootstrap/dist/css/bootstrap.min.css";
 

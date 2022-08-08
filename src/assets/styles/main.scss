@@ -1,0 +1,10 @@
+// Setup
+@import "setup/variables";
+@import "setup/mixins";
+@import "setup/typography";
+
+// Views
+@import "views/home-page";
+
+// Cmps
+@import "cmps/home-page-tabs.scss";
